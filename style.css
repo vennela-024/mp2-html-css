@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+    font-family: DM Sans;
+}
+
+.navbar{
+    background-color: #6F6AF7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.pagetitle{
+    background-color: #6F6AF7;
+    padding-top: 5px;
+    margin-right: 150px
+}
+
+.pagetitle img{
+    width: 140px;
+    height: auto;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #6F6AF7;
+}
+
+.navbar li{
+    float: left;
+}
+
+a{
+    font-size: 20px;
+    display: block;
+     padding: 8px 30px;
+     color: #fff;
+}
+
+.navbar input{
+    height: 28px;
+    border-radius: 20px;;
+    width: 15rem;
+    font-size: 20px;
+    margin: 6px 60px;
+}
+
+.optionslogo{
+    position: fixed;
+    top: 0;
+    right:0;
+    padding: 20px 20px;
+}
+
+.optionslogo img{
+    width: 55px;
+    height: auto;
+}
+
+
+
+/* Section2 */
+.banner2{
+    display: flex;
+    margin-top: 130px;
+    margin-left: 90px;
+}
+.left-section img{
+    width: 320px;
+    height: auto;
+    padding-top: 35px;
+}
+
+.right-section{
+    background-color: #E5D8FF;
+    margin: 30px;
+    display: block;
+    border-radius: 12px;
+    width: 65%;  
+}
+
+.right-section p{
+    color: #6f7373;
+    padding-left: 20px
+}
+
+.logos-container{
+    position: sticky;
+    top: 40px;
+    margin-bottom: 100px;
+    /* z-index: 1000; */
+}
+
+.logos-container img{
+    width: 70px;
+    height: auto;
+}
+
+/*Section-3*/
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card1{
+    background-color: #929DFF;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(120, 22, 0, 0.1);
+    width: 280px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card2{
+    background-color: #734CF2;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card3{
+    background-color: #D288FF;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card4{
+    background-color: #000000;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card-content{
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 14px;
+    font-size: 18px;
+}
+
+.chatlogo{
+    position: fixed;
+    bottom: 0;
+    right:0;
+}
+.chatlogo img{
+    width: 120px;
+    height: auto;
+}
+
+/* Section-4 */
+.banner4{
+    display: flex;
+    background-color: #483EFF;
+    border-radius: 12px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 450px;
+}
+
+.section-left ul{
+    list-style-type: none;
+    display: block;
+    margin-top: 40px;
+
+}
+
+.options-left li{
+    color: white;
+    border: 3px solid white;
+    border-radius: 12px;
+    margin-top: 56px;
+    padding: 6px 56px;
+}
+
+.select li{
+    background-color: #bce0f6;
+    color: #000;
+}
+
+.card5{
+    background-color:white;
+    border-radius: 12px;
+    width: 850px;
+    height: 380px;
+    margin: 40px 30px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.content h2{
+    padding-left: 50px;
+    padding-top: 24px;
+    color: #04285a
+}
+
+.card5 ul{
+    list-style-type: none;
+    margin-top: 30px
+}
+.card5 li{
+    color: #04285A;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px
+}
+
+.colon{
+    margin-right: 20px;
+}
+
+.item{
+    margin-right: 22px;
+}
+
+
+.button-container{
+    float: right;
+    margin: 40px 40px;
+}
+button{
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 8px 20px;
+}
+
+.button-container img{
+    width: 30px;
+    height: auto;
+}
